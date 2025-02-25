@@ -22,7 +22,14 @@ import {
   carrent,
   jobit,
   tripguide,
+  helloai,
+  carLusion,
+  samtik,
   threejs,
+  xenure,
+  kodesinc,
+  softmind,
+  switchTech,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "WordPress",
     icon: creator,
   },
 ];
@@ -117,23 +124,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "Xenure.co",
+    icon: xenure,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "April 2021 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,29 +136,34 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Mern Stack Developer",
+    company_name: "Softmind Solutions",
+    icon: softmind,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2023 - Jan 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining full-stack web applications using MongoDB, Express.js, React.js, and Node.js",
+      "Building RESTful APIs and integrating them with frontend applications for seamless user experiences",
+      "Implementing authentication and authorization using technologies like JWT, OAuth, or Passport.js.",
+      "Ensuring database management and optimization with MongoDB, including indexing and aggregation.",
+      "Collaborating with cross-functional teams, including UI/UX designers, product managers, and other developers, to deliver high-quality applications.",
+    ],
+  },
+  {
+    title: "Mern Stack Developer",
+    company_name: "Kodesinc",
+    icon: kodesinc,
+    iconBg: "#383E56",
+    date: "Feb 2025 ",
+    points: [
+      "Developing scalable web applications with MERN stack.",
+      "Creating and managing backend services using Node.js and Express.",
+      "Designing and optimizing MongoDB schemas for performance.",
+      "Building dynamic and reusable UI components with React.js.",
+      "Integrating third-party APIs and microservices.",
+      "Implementing secure authentication and role-based access control.",
+      "Optimizing application performance and database queries.",
+      "Debugging and resolving issues to ensure smooth functionality.",
     ],
   },
 ];
@@ -195,33 +194,13 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+// helloai,carLusion,samtik,
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Switch Tech Supply",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Switch Tech Supply LLC is the global IT hardware reseller and IT product supplier. Having strong connections with renowned IT hardware manufacturers, switch tech supply help thier customers get the best products at incredible prices regardless of their size & nature. Switch Tech Supply work closely with all the valued customers to help them procure the best-in-class IT hardware meeting their needs from well-reputed brands & manufacturers.",
     tags: [
       {
         name: "react",
@@ -232,33 +211,80 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: switchTech,
+    // source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Hello.ai",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "HelloAI revolutionizes resume building with advanced AI technology, transforming your traditional CV into a dynamic, tailored Digital Resume designed to help you land your dream job. By analyzing your experience, skills, and career goals, HelloAI enhances your resume with AI-powered insights, ensuring it aligns perfectly with your desired role. It not only improves your CV but also offers personalized career suggestions, seamless collaboration tools.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tialwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: helloai,
+  },
+  {
+    name: "Car Lusion",
+    description:
+      "Carluson is an international automotive project operating across Germany, the UK, and Italy, specializing in the buying and selling of cars. With a team of industry experts, Carluson provides a seamless platform for individuals and businesses to purchase high-quality vehicles or sell their cars at competitive prices. Whether you're looking for a new or used car, Carluson ensures a transparent experience with expert guidance at every step",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: carLusion,
+  },
+  {
+    name: "Smatik.ch",
+    description:
+      "Smatik.ch is an international automotive project operating across Germany and Italy, specializing in the buying and selling of cars. With a team of industry experts, Smatik.ch provides a seamless platform for individuals and businesses to purchase high-quality vehicles or sell their cars at competitive prices. Whether you're looking for a new or used car, Carluson ensures a transparent experience with expert guidance at every step",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: samtik,
   },
 ];
 

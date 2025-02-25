@@ -29,8 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import xenure from "./xenure.svg"
+import kodesinc from "./kodesinc.jpg"
+import softmind from "./softmind.jpg"
+import switchTech from "./switchTech.png"
+import helloai from "./hello-ai-project.png"
+import carLusion from "./car-lusion.png"
+import samtik from "./smtik.png"
 export {
+  helloai,carLusion,samtik,
   logo,
   backend,
   creator,
@@ -59,4 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  xenure,kodesinc,softmind,switchTech
 };
