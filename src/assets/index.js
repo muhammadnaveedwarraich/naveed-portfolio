@@ -36,6 +36,14 @@ import switchTech from "./switchTech.png"
 import helloai from "./hello-ai-project.png"
 import carLusion from "./car-lusion.png"
 import samtik from "./smtik.png"
+import ParkDna from "./Park-dna.png"
+import myKilo from "./my-kilo.png"
+import pixalLove from "./pixal-love.png"
+import baserun from "./base-run.png"
+import samaPhony from  "./sama-phony.png"
+import order1 from "./order1.jpeg"
+import order2 from "./order2.jpeg"
+import order3 from "./order3.jpeg"
 export {
   helloai,carLusion,samtik,
   logo,
@@ -66,5 +74,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  xenure,kodesinc,softmind,switchTech
-};
+  xenure,kodesinc,softmind,switchTech,ParkDna,
+  myKilo, pixalLove,baserun
+,samaPhony, order1,order2,order3};

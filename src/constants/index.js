@@ -30,6 +30,14 @@ import {
   kodesinc,
   softmind,
   switchTech,
+  ParkDna,
+  myKilo,
+  pixalLove,
+  baserun,
+  samaPhony,
+  order1,
+  order2,
+  order3,
 } from "../assets";
 
 export const navLinks = [
@@ -103,10 +111,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -170,28 +178,13 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: order1,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: order2,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: order3,
   },
 ];
 // helloai,carLusion,samtik,
@@ -285,6 +278,130 @@ const projects = [
       },
     ],
     image: samtik,
+  },
+  {
+    name: "Park Dna",
+    description:
+      "We are a dedicated Atlanta-based team offering innovative parking management solutions nationwide. Our mission is to simplify and enhance the parking experience for customers all across the country. Through our cutting-edge parking system, customers can effortlessly handle their parking payments right from their own devices, ensuring convenience and ease.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "zod",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ParkDna,
+  },
+  {
+    name: "My Kilo",
+    description:
+      "myKilo is a complete fitness platform offering paid diet plans, structured workout programs, and guided workout videos. Whether your goal is weight loss, muscle gain, or staying fit, myKilo provides the tools and support you need to stay motivated and achieve lasting results.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myKilo,
+  },
+  {
+    name: "Pixal Love",
+    description:
+      "Pixal Love is a dating app that brings genuine connections to life. The dashboard offers a clean and intuitive interface where users can manage their profiles, view matches, chat, and track activity — making dating smooth, personal, and engaging.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pixalLove,
+  },
+  {
+    name: "Base Run",
+    description:
+      "BaseRun is a web platform designed to help coaches, players, and organizers manage baseball teams and match schedules. From organizing rosters to planning game days, BaseRun streamlines the season so teams can focus on what matters most — the game",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: baserun,
+  },
+  {
+    name: "Sama Phony",
+    description:
+      "SamPhone is a user-friendly marketplace that allows users to buy and sell smartphones quickly and securely. Whether you're upgrading to a new device or selling your old one, SamPhone connects trusted buyers and sellers in just a few clicks — simple, fast, and hassle-free",
+    tags: [
+      {
+        name: "shopify",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: samaPhony,
   },
 ];
 

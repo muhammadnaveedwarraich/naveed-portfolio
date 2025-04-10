@@ -69,7 +69,6 @@ const ProjectCard = ({
 };
 
 const Works = () => {
-  console.log("projects",projects)
   return (
     <>
       <motion.div variants={textVariant()}>
